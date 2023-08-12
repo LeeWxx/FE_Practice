@@ -1,12 +1,10 @@
 import React from 'react';
-import MyClassComponent from './MyClassComponent';
-import MyFunctionComponent from './MyFunctionComponent';
-import Counter from './Counter';
-import Say from './Say';
+//import EventPractice from './EventPractice_Class';
+import EventPractice from './EventPractice_Function';
 
 const App = () => {
   return (
-		<Counter/>
+		<EventPractice/>
 	);
 };
 
