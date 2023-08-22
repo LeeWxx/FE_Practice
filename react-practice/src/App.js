@@ -1,9 +1,13 @@
 import React from 'react';
-import Info from './Chapter8/Info';
-import Average from './Chapter8/Average';
+import CSSModule from './Chapter9/CSSModule';
+import StyledComponent from './Chapter9/StyledComponent';
 
 const App = () => {
-  return <Info />;
+	return (
+		<div>
+			<StyledComponent />
+		</div>
+	);
 };
 
 export default App;
